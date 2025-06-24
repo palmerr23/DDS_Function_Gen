@@ -1,0 +1,56 @@
+	html {font-family:Arial; display:inline-block; text-align:center;}
+	h2 {font-size:2.0rem;}
+	p {font-size:1.0rem;}
+	 .range-slider2 {
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;} 
+	body {max-width:1750px; margin:0px auto; padding-bottom:25px;}
+	.divsel{position: relative; display:table-cell; float:left;  height:35px; width:180px; margin:3px 3px; font-weight:700; font-size:14px; border-radius:3px; background-color:#0c0; border:1px solid #888}
+	.divz {display:table-cell; float:left; height:35px; width:70px; margin:3px 3px; border-radius:3px; background-color:#ccc; border:1px solid #888}
+	.divzr{display:table-cell; float:right; height:35px; width:70px; margin:3px 3px; border-radius:3px; background-color:#ccc; border:1px solid #888}
+	.divzc{position:relative; display:table-cell; float:center; height:35px; width:70px; margin:3px 7px; border-radius:3px; background-color:#ccc; border:1px solid #888}
+  .labx {position:absolute;  text-align:left; background-color:#bfc; justify-content:center;}
+  .laby {position:relative; float:left; left:15px; top:7px; font-weight:700;}
+  .labyr {position:relative; float:left; left:15px; top:-30px; font-weight:700;}
+	.lpad {background-color:transparent;  border-radius:4px; height:25px; width:35px; font-weight:700;}
+  .btnz {position:absolute; margin:0px; top:4px; left:0px; height:17px; width:75px; color:black; background-color:transparent; border-radius:3px; font-weight:bold; font-size:14px; }
+	.btnq {position:absolute; margin:0px; left:0px; height:35px; width:70px; opacity:0; background-color:transparent; border-radius:3px; font-weight:bold; font-size:14px; android:text="disable keyboard"}
+	.btna {height:35px; width:35px; opacity:0; color:black;  background-color:transparent; border-radius:3px; font-weight:bold; font-size:14px; margin:0px; top:12px;}
+	.labelz:before {position:absolute; content:""; height:35px; width:35px; left:6px; bottom:0px; top:3px; background-color:#fff; border-radius:4px}*
+  .labelz {vertical-align:bottom; background-color:#333; border-radius:3px;}
+  .texts  {margin-top:3px; font-size:15px; float:left; color:black; position:absolute; background-color:transparent; border:none; text-align:right; font-weight:bold;}    
+  .textsl {margin-top:3px; font-size:14px; color:black; position:absolute; background-color:transparent; border:none; text-align:left; font-weight:bold;}    
+	.reads  {margin-top:3px; font-size:18px; color:black; position:absolute; background-color:transparent; border:none; text-align:right; font-weight:bold;}    
+	.unit {position:absolute; text-align:left; margin:10px 0 0 0; background-color:transparent; width:30px}
+  .errline {animation:blinkingText .7s infinite; font-size:16px; float:left; background-color:transparent; border:none; text-align:center; font-weight:bold; maxlength:90}  
+
+	#jog_dial {background:url('base_bg.png'); background-repeat:none; } 
+	#jog_dial #jog_dial_knob {background:url('base_knob.png'); background-repeat:none;)} 
+
+  .container {width:100%;margin:7px auto;} 
+  .row {display:table-row; padding:5px; margin:10px; background-color:transparent;}
+  .column  {display:table-column; height:180px; padding:5px; border:1px; float:left;} 
+	.column2 {display:table-column; height:360px; margin:3px; padding:5px; border:1px; float:left; border-style:solid;} 
+	.cell {display:table-cell; margin:2px; padding:5px; float:left;}
+    
+	.pg_container {display:table; padding:5px; margin:auto; border:1px solid #666666; background-color:#6cf; }
+	.tm_container {display:table; padding:5px; margin:auto; background-color:#e6f7ff; border:1px}  
+	.bm_container {display:inline-block; padding:5px; margin:auto; align:center;}
+	.tx_container {display:table; padding:5px;}
+	.screenChangeL {border:1px solid #666; background-color:#6cf; padding:5px; width:80px; font-size:15px; font-weight:bold;}
+	.buttonTop {display:flex; justify-content:right; }
+  .buttonForm {}
+	.screenChangeR {display:none;}
+	.headlineL {border:1px none;  font-weight:bold; font-size:22px; pointer-events:none; text-align:left; background-color:transparent;}
+	.headlineS {display:inline-block; border:1px none; font-weight:bold; font-size:25px; pointer-events:none; text-align:center; background-color:transparent;}
+	.headlineO {border:1px none; font-weight:bold; font-size:25px; text-align:left;}
+	.blinking{animation:blinkingText 1.2s infinite;border:1px none; text-align:center; font-weight:bold; font-size:25px; background-color:transparent;}
+	@keyframes blinkingText{
+		0%{color:#f00;}
+		49%{color:#f00;}
+		60%{color:transparent;}
+		99%{color:transparent;}
+		100%color:#f00;}
+	}/*ends*/
+  
